@@ -9,7 +9,7 @@
                             class="logo"
                         >
                             <img
-                                src="{{ asset('assets/images/logo/01.svg') }}"
+                                src="{{ asset('assets/images/logo/kertina.png') }}"
                                 alt="image-logo"
                             >
                         </a>
