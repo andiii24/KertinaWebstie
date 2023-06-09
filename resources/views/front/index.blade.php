@@ -301,7 +301,7 @@
                             data-sal-delay="170"
                             data-sal-duration="800"
                         >
-                            Welcome To Kertina Bar & Restaurant
+                            Kertina Addis Bar & Restaurant
                         </h1>
                         <div
                             class="banner-shape-area"
@@ -342,13 +342,13 @@
         <div class="marquee">
             <div class="marquee-content">
                 <div class="marquee-tag">
-                    <h3>Welcome To Kertina Bar & Restaurant <span></span></h3>
+                    <h3>Welcome To Kertina Bar Addis & Restaurant <span></span></h3>
                 </div>
                 <div class="marquee-tag">
-                    <h3>Welcome To Kertina Bar & Restaurant <span></span></h3>
+                    <h3>Welcome To Kertina Bar Addis & Restaurant <span></span></h3>
                 </div>
                 <div class="marquee-tag">
-                    <h3>Welcome To Kertina Bar & Restaurant <span></span></h3>
+                    <h3>Welcome To Kertina Addis Bar & Restaurant <span></span></h3>
                 </div>
             </div>
         </div>
