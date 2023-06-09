@@ -140,9 +140,9 @@
                                             <span class="shape"></span>
                                         </div>
                                         <h1 class="title-banner">
-                                            Delicious Foods With
+                                            Discover the Taste of Ethiopia at
                                             <br>
-                                            Wonderful Eating
+                                            Kertina Bar & Restaurant
                                         </h1>
                                         <div class="button-area-banner">
                                             <a
@@ -177,9 +177,9 @@
                                             <span class="shape"></span>
                                         </div>
                                         <h1 class="title-banner">
-                                            Delicious Foods With
+                                            Discover the Taste of Ethiopia at
                                             <br>
-                                            Wonderful Eating
+                                            Kertina Bar & Restaurant
                                         </h1>
                                         <div class="button-area-banner">
                                             <a
@@ -214,9 +214,9 @@
                                             <span class="shape"></span>
                                         </div>
                                         <h1 class="title-banner">
-                                            Delicious Foods With
+                                            Discover the Taste of Ethiopia at
                                             <br>
-                                            Wonderful Eating
+                                            Kertina Bar & Restaurant
                                         </h1>
                                         <div class="button-area-banner">
                                             <a
@@ -243,50 +243,7 @@
     <!-- banner end -->
 
     <!-- reservation start -->
-    <div class="rts-reservation-area">
-        <div class="container">
-            <form
-                action="#"
-                class="appoinment-form"
-            >
-                <div class="single-input">
-                    <label for="guest">Number of Guest <span class="indicator">*</span></label>
-                    <input
-                        type="number"
-                        placeholder="Person"
-                        id="guest"
-                        required
-                    >
-                </div>
-                <div class="single-input">
-                    <label for="datepicker">Select Date <span class="indicator">*</span></label>
-                    <input
-                        placeholder="Date"
-                        type="text"
-                        name="checkIn"
-                        id="datepicker"
-                        value=""
-                        class="calendar"
-                        required
-                    >
-                </div>
-                <div class="single-input">
-                    <label for="timepicker">Select Date <span class="indicator">*</span></label>
-                    <input
-                        type="text"
-                        id="timepicker"
-                        placeholder="Time"
-                    />
-                </div>
-                <div class="single-input">
-                    <button
-                        type="submit"
-                        class="rts-btn btn-primary"
-                    >BOOK RESERVATION</button>
-                </div>
-            </form>
-        </div>
-    </div>
+
     <!-- reservation end -->
 
     <!-- about area start -->
@@ -344,7 +301,7 @@
                             data-sal-delay="170"
                             data-sal-duration="800"
                         >
-                            Welcome To Our <br> Luxury Restaurant
+                            Welcome To Kertina Bar & Restaurant
                         </h1>
                         <div
                             class="banner-shape-area"
@@ -385,13 +342,13 @@
         <div class="marquee">
             <div class="marquee-content">
                 <div class="marquee-tag">
-                    <h3>Welcome To Our Luxury Restaurant <span></span></h3>
+                    <h3>Welcome To Kertina Bar & Restaurant <span></span></h3>
                 </div>
                 <div class="marquee-tag">
-                    <h3>Welcome To Our Dinenos Restaurant <span></span></h3>
+                    <h3>Welcome To Kertina Bar & Restaurant <span></span></h3>
                 </div>
                 <div class="marquee-tag">
-                    <h3>Welcome To Our Luxury Restaurant <span></span></h3>
+                    <h3>Welcome To Kertina Bar & Restaurant <span></span></h3>
                 </div>
             </div>
         </div>
@@ -598,35 +555,7 @@
     <!-- MENU area end -->
 
     <!-- contact area start -->
-    <div class="rts-contact-area rts-section-gapTop bg-white">
-        <div class="divider">
-            <div
-                class="rt-line-draw"
-                data-sal="slide-up"
-                data-sal-delay="120"
-                data-sal-duration="800"
-            >
-                <svg
-                    version="1.1"
-                    id="line_1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    width="50px"
-                    height="200px"
-                    xml:space="preserve"
-                >
-                    <path
-                        class="line-path wow path-vert"
-                        fill="#01a09e"
-                        stroke-width="1"
-                        stroke="#dd5903"
-                        d="M30 0 v600 400"
-                    ></path>
-                </svg>
-            </div>
-        </div>
+    <div class="rts-contact-area rts-section-gapTop bg-white ">
         <div class="contact-area-inner">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -1076,209 +1005,6 @@
         </div>
     </div>
     <!-- gallery area end -->
-
-    <!-- blog area start -->
-    <div class="rts-blog-area rts-section-gap">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <div class="banner-one-wrapper">
-                        <div
-                            class="title-img"
-                            data-sal="zoom-in"
-                            data-sal-delay="100"
-                            data-sal-duration="800"
-                        >
-                            <img
-                                src="{{ asset('assets/images/about/title-shape.png') }}"
-                                alt="about"
-                            >
-                        </div>
-                        <h1
-                            class="title-banner"
-                            data-sal="slide-up"
-                            data-sal-delay="120"
-                            data-sal-duration="800"
-                        >
-                            Starters & Main Dishes
-                        </h1>
-                        <p
-                            class="desc"
-                            data-sal="slide-up"
-                            data-sal-delay="200"
-                            data-sal-duration="800"
-                        >It’s the story of an everlasting love affair, Dieter Delicioz and the <br> Atlantic Ocean in the big air.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-technical-main-wrapper">
-                <div class="swiper mySwiper-blog">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="blog-wrapper">
-                                <div class="image-part">
-                                    <img
-                                        src="{{ asset('assets/images/blog/blog-01.jpg') }}"
-                                        alt="blog"
-                                    >
-                                </div>
-                                <span class="blog-badge"> March 2, 2023</span>
-                                <div class="content">
-                                    <p class="tag"><a href="#">Fast Food</a></p>
-                                    <h3 class="title"><a href="blog-details.html">Love and food: It is all about dinenos restaurant</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="blog-wrapper">
-                                <div class="image-part">
-                                    <img
-                                        src="{{ asset('assets/images/blog/blog-02.jpg') }}"
-                                        alt="blog"
-                                    >
-                                </div>
-                                <span class="blog-badge"> March 2, 2023</span>
-                                <div class="content">
-                                    <p class="tag"><a href="#">Rice curry</a></p>
-                                    <h3 class="title"><a href="blog-details.html">Food is the foundation of true happiness</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="blog-wrapper">
-                                <div class="image-part">
-                                    <img
-                                        src="{{ asset('assets/images/blog/blog-03.jpg') }}"
-                                        alt="blog"
-                                    >
-                                </div>
-                                <span class="blog-badge"> March 2, 2023</span>
-                                <div class="content">
-                                    <p class="tag"><a href="#">Dinner</a></p>
-                                    <h3 class="title"><a href="blog-details.html">Enjoy an exceptional journey of taste of joy.</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="blog-wrapper">
-                                <div class="image-part">
-                                    <img
-                                        src="{{ asset('assets/images/blog/blog-04.jpg') }}"
-                                        alt="blog"
-                                    >
-                                </div>
-                                <span class="blog-badge"> March 2, 2023</span>
-                                <div class="content">
-                                    <p class="tag"><a href="#">Restaurant</a></p>
-                                    <h3 class="title"><a href="blog-details.html">The opportunity to work abroad is a prospect, one</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- blog area end -->
-
-    <!-- blog area start -->
-    <div
-        class="rts-brand-area rts-section-gap bg-white"
-        data-sal="slide-up"
-        data-sal-delay="120"
-        data-sal-duration="800"
-    >
-        <div class="container">
-            <div class="swiper-brand-main-wrapper">
-                <div class="swiper mySwiper-brand">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="brand-wrapper">
-                                <div class="image">
-                                    <a href="#"><img
-                                            src="{{ asset('assets/images/brand/01.png') }}"
-                                            alt="brand"
-                                        ></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-wrapper">
-                                <div class="image">
-                                    <a href="#"><img
-                                            src="{{ asset('assets/images/brand/02.png') }}"
-                                            alt="brand"
-                                        ></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-wrapper">
-                                <div class="image">
-                                    <a href="#"><img
-                                            src="{{ asset('assets/images/brand/03.png') }}"
-                                            alt="brand"
-                                        ></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-wrapper">
-                                <div class="image">
-                                    <a href="#"><img
-                                            src="{{ asset('assets/images/brand/04.png') }}"
-                                            alt="brand"
-                                        ></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-wrapper">
-                                <div class="image">
-                                    <a href="#"><img
-                                            src="{{ asset('assets/images/brand/05.png') }}"
-                                            alt="brand"
-                                        ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bottom-text">
-                <p class="desc">5000+ Happy Sponsors With us</p>
-            </div>
-            <div class="divider">
-                <div
-                    class="rt-line-draw"
-                    data-sal="slide-up"
-                    data-sal-delay="120"
-                    data-sal-duration="800"
-                >
-                    <svg
-                        version="1.1"
-                        id="line_2"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        x="0px"
-                        y="0px"
-                        width="50px"
-                        height="200px"
-                        xml:space="preserve"
-                    >
-                        <path
-                            class="line-path wow path-vert"
-                            fill="#01a09e"
-                            stroke-width="1"
-                            stroke="#dd5903"
-                            d="M30 0 v600 400"
-                        ></path>
-                    </svg>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- blog area end -->
 
     <!-- rts footer area start -->
     @include('front.layout.footer')
