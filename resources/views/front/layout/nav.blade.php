@@ -22,10 +22,10 @@
                             href="#"
                             class="nav-menu-link menu-button"
                         >
-                            <span class="dot1"></span>
+                            <span class="dot1" style="background-color: #fa1819"></span>
                             <span class="dot2"></span>
                             <span class="dot3"></span>
-                            <span class="dot4"></span>
+                            <span class="dot4"style="background-color: #fa1819"></span>
                         </a>
                     </div>
                     <div class="rts-header-mid d-none d-lg-block">

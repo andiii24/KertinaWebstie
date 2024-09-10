@@ -24,7 +24,7 @@
                                 class="logo"
                             >
                                 <img
-                                    src="{{ asset('assets/images/logo/01.svg') }}"
+                                    src="{{ asset('assets/images/logo/kertina.png') }}"
                                     alt="logo"
                                 >
                             </a>
@@ -39,7 +39,7 @@
                             data-sal-duration="800"
                         >
                             <div class="footer-header-two get-touch">
-                                <h6 class="title">Get In Touch</h6>
+                                <h6 class="title" style="color: #671406">Get In Touch</h6>
                                 <div class="get-touch">
                                     <ul>
                                         <li><i class="fa-solid fa-location-dot"></i>Addis Ababa, Gerji</li>
@@ -103,7 +103,7 @@
                     <div class="col-lg-12">
                         <div class="copyright-footer-one">
                             <p class="disc">
-                                Developed by <a href="https://www.instagram.com/anduamlak_t3m3sg3n/"> Anduamlak Temesgen </a> @2023
+                                Developed by <a href="https://t.me/Andiii24" style="color: #671406"> Anduamlak Temesgen  </a>contact info - 0933905958
                             </p>
                         </div>
                     </div>

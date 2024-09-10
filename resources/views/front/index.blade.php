@@ -22,7 +22,7 @@
             <div class="inner-main-wrapper-desk d-none d-lg-block">
                 <div class="thumbnail">
                     <img
-                        src="{{ asset('assets/images/logo/01.svg') }}"
+                        src="{{ asset('assets/images/logo/kertina.jpg') }}"
                         alt="dinenos"
                     >
                 </div>
@@ -34,19 +34,18 @@
                 <div class="inner-content">
                     <ul class="feature-list">
                         <li class="query-list">
-                            <span class="sub-text">18/B, New Ave 1000 New York</span>
+                            <span class="sub-text">Gerji, Bole, Addis Ababa</span>
                             <a
                                 class="phone"
-                                href="tel:99988899900"
-                            >999 888 999 00</a>
+                                href="tel:0911464533"
+                            >0911464533</a>
                             <a
                                 class="email"
                                 href="mail-to_office%40webmailfree.html"
-                            >office@webmailfree.com</a>
+                            >kertina@gmail.com</a>
                         </li>
                         <li class="query-list two">
-                            <p class="time">Mon - Thu: 10 AM - 02 AM</p>
-                            <p class="time">Fri - Sun: 10 AM - 02 AM</p>
+                            <p class="time">Mon - Sun: 24/7</p>
                         </li>
                     </ul>
                     <div class="footer">
@@ -65,7 +64,7 @@
                 <nav class="nav-main mainmenu-nav mt--30">
                     <ul
                         class="mainmenu"
-                        id="mobile-menu-active"
+                        id="mobile-menu-active"g
                     >
                         <li class="has-droupdown">
                             <a
@@ -317,7 +316,7 @@
                             class="desc"
                             data-sal="slide-up"
                             data-sal-duration="800"
-                        >It’s the story of an everlasting love affair, Dieter Delicioz and <br> the Atlantic Ocean. Our proximity to the abundant riches of <br> the sea and Portugal’s excellent produce.</p>
+                        >. Savor the Authentic Tastes of Ethiopia,<br> from the Spices of Our Ancestral Dishes <br>to the Warmth of Our Hospitality.</p>
                         <div
                             class="button-area-banner"
                             data-sal="slide-up"
@@ -325,9 +324,9 @@
                             data-sal-duration="800"
                         >
                             <a
-                                href="menu-list.html"
+                                href="https://menu.kertina-addis.com/restaurant/kertina-addis-bar--restaurant"
                                 class="rts-btn btn-secondary"
-                            >More Foods</a>
+                            >Foods Menu</a>
                         </div>
                     </div>
                 </div>
@@ -342,13 +341,13 @@
         <div class="marquee">
             <div class="marquee-content">
                 <div class="marquee-tag">
-                    <h3>Welcome To Kertina Bar Addis & Restaurant <span></span></h3>
+                    <h3> Welcome To Kertina Addis <span></span></h3>
                 </div>
                 <div class="marquee-tag">
-                    <h3>Welcome To Kertina Bar Addis & Restaurant <span></span></h3>
+                    <h3> Welcome To Kertina Addis <span></span></h3>
                 </div>
                 <div class="marquee-tag">
-                    <h3>Welcome To Kertina Addis Bar & Restaurant <span></span></h3>
+                    <h3> Welcome To Kertina Addis <span></span></h3>
                 </div>
             </div>
         </div>
@@ -411,16 +410,24 @@
                         >All</button>
                         <button
                             class="gf_btn"
-                            data-filter=".cat1"
-                        >Beakfast</button>
+                            data-filter=".ground"
+                        >Ground</button>
                         <button
                             class="gf_btn"
-                            data-filter=".cat2"
-                        >Dinner</button>
+                            data-filter=".first"
+                        >First Floor</button>
                         <button
                             class="gf_btn"
-                            data-filter=".cat3"
-                        >Lunch</button>
+                            data-filter=".second"
+                        >Second Floor</button>
+                        <button
+                            class="gf_btn"
+                            data-filter=".vip"
+                        >VIP (Fifth) Floor</button>
+                        <button
+                            class="gf_btn"
+                            data-filter=".teras"
+                        >Teras</button>
                     </div>
                 </div>
             </div>
@@ -430,111 +437,233 @@
                 data-sal-delay="270"
                 data-sal-duration="800"
             >
-                <div class="col-lg-3 col-md-6 col-sm-6 grid-item cat3">
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item teras">
                     <div class="portfolio-wrapper2 mb--30">
-                        <a
-                            href="shop-details.html"
-                            class="image"
+                        <img
+                            class="img-fluid"
+                            src="{{ asset('assets/images/project/teras2.jpg') }}"
+                            alt="Portfolio Img" onclick="openImageModal(this)"
                         >
+                    </div>
+                    
+                    <!-- The Modal -->
+                    <div id="imageModal" class="modal">
+                        <span class="close" onclick="closeImageModal()">&times;</span>
+                        <img class="modal-content" id="fullScreenImage">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item vip">
+                    <div class="portfolio-wrapper2 mb--30">
                             <img
                                 class="img-fluid"
-                                src="{{ asset('assets/images/project/01.jpg') }}"
-                                alt="Portfolio Img"
+                                src="{{ asset('assets/images/project/vip1.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
                             >
-                        </a>
-                        <div class="portfolio-content">
-                            <div class="star-rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <div class="content">
-                                <p class="title"><a href="shop-details.html">Chicha Morada</a></p>
-                                <span class="price">$33.00</span>
-                            </div>
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 grid-item cat1">
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item ground">
                     <div class="portfolio-wrapper2 mb--30">
-                        <a
-                            href="shop-details.html"
-                            class="image"
-                        >
                             <img
                                 class="img-fluid"
-                                src="{{ asset('assets/images/project/02.jpg') }}"
-                                alt="Portfolio Img"
+                                src="{{ asset('assets/images/project/ground2.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
                             >
-                        </a>
-                        <div class="portfolio-content">
-                            <div class="star-rating">
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                            </div>
-                            <div class="content">
-                                <p class="title"><a href="shop-details.html">Tommy’s Margarita</a></p>
-                                <span class="price">$30.00</span>
-                            </div>
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 grid-item cat2 cat3">
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item teras">
                     <div class="portfolio-wrapper2 mb--30">
-                        <a
-                            href="shop-details.html"
-                            class="image"
-                        >
                             <img
                                 class="img-fluid"
-                                src="{{ asset('assets/images/project/03.jpg') }}"
-                                alt="Portfolio Img"
+                                src="{{ asset('assets/images/project/teras3.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
                             >
-                        </a>
-                        <div class="portfolio-content">
-                            <div class="star-rating">
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                            </div>
-                            <div class="content">
-                                <p class="title"><a href="shop-details.html">Prickly Pear Tonic</a></p>
-                                <span class="price">$15.00</span>
-                            </div>
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 grid-item cat1">
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item vip">
+                    <div class="portfolio-wrapper2 mb--30">
+                            <img
+                                class="img-fluid"
+                                src="{{ asset('assets/images/project/vip2.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
+                            >
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item ground">
+                    <div class="portfolio-wrapper2 mb--30">
+                       
+                            <img
+                                class="img-fluid"
+                                src="{{ asset('assets/images/project/ground3.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
+                            >
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item teras">
+                    <div class="portfolio-wrapper2 mb--30">
+                            <img
+                                class="img-fluid"
+                                src="{{ asset('assets/images/project/teras4.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
+                            >
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item vip">
+                    <div class="portfolio-wrapper2 mb--30">
+                        
+                            <img
+                                class="img-fluid"
+                                src="{{ asset('assets/images/project/vip3.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
+                            >
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item second">
+                    <div class="portfolio-wrapper2 mb--30">
+       
+                            <img
+                                class="img-fluid"
+                                src="{{ asset('assets/images/project/second1.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
+                            >
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item first">
                     <div class="portfolio-wrapper2 mb--30">
                         <a
-                            href="shop-details.html"
+                            href=""
                             class="image"
                         >
                             <img
                                 class="img-fluid"
-                                src="{{ asset('assets/images/project/04.jpg') }}"
-                                alt="Portfolio Img"
+                                src="{{ asset('assets/images/project/first1.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
                             >
                         </a>
-                        <div class="portfolio-content">
-                            <div class="star-rating">
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                            </div>
-                            <div class="content">
-                                <p class="title"><a href="shop-details.html">Crispy Skin Chicken</a></p>
-                                <span class="price">$15.00</span>
-                            </div>
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item second">
+                    <div class="portfolio-wrapper2 mb--30">
+                        <a
+                            href=""
+                            class="image"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="{{ asset('assets/images/project/second3.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
+                            >
+                        </a>
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item ground">
+                    <div class="portfolio-wrapper2 mb--30">
+                        <a
+                            href=""
+                            class="image"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="{{ asset('assets/images/project/ground4.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
+                            >
+                        </a>
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item first">
+                    <div class="portfolio-wrapper2 mb--30">
+                        <a
+                            href=""
+                            class="image"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="{{ asset('assets/images/project/first2.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
+                            >
+                        </a>
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item second">
+                    <div class="portfolio-wrapper2 mb--30">
+                        <a
+                            href=""
+                            class="image"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="{{ asset('assets/images/project/second.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
+                            >
+                        </a>
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 grid-item first">
+                    <div class="portfolio-wrapper2 mb--30">
+                        <a
+                            href=""
+                            class="image"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="{{ asset('assets/images/project/first3.jpg') }}"
+                                alt="Portfolio Img" onclick="openImageModal(this)"
+                            >
+                        </a>
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeImageModal()">&times;</span>
+                            <img class="modal-content" id="fullScreenImage">
                         </div>
                     </div>
                 </div>
@@ -546,16 +675,16 @@
                 data-sal-duration="800"
             >
                 <a
-                    href="menu-list.html"
+                    href="https://menu.kertina-addis.com/restaurant/kertina-addis-bar--restaurant"
                     class="rts-btn btn-secondary"
-                >Get Free Tour</a>
+                >Go to Menu</a>
             </div>
         </div>
     </div>
     <!-- MENU area end -->
 
     <!-- contact area start -->
-    <div class="rts-contact-area rts-section-gapTop bg-white ">
+    <div class="rts-contact-area rts-section-gapTop bg-whit " style="margin-top:100px">
         <div class="contact-area-inner">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -582,7 +711,7 @@
                                 data-sal-delay="120"
                                 data-sal-duration="800"
                             >
-                                Find Food Lounge
+                                Kertina Addis
                             </h1>
                             <div
                                 class="banner-shape-area"
@@ -600,12 +729,11 @@
                                 data-sal-delay="450"
                                 data-sal-duration="800"
                             >
-                                <li>18/B, New Ave 1000 New York</li>
-                                <li><a href="tel:99988899900">999 888 999 00</a></li>
-                                <li><a href="mailto:office@webmailfree.com">office@webmailfree.com</a></li>
+                                <li>Bole, Gerji, Addis Ababa </li>
+                                <li><a href="tel:99988899900">0987165503</a></li>
+                                <li><a href="mailto:office@webmailfree.com">kertina@gmail.com</a></li>
                                 <li class="break"></li>
-                                <li>Mon - Thu: 10 AM - 02 AM</li>
-                                <li>Fri - Sun: 10 AM - 02 AM</li>
+                                <li>Mon - Sun: 24/7</li>
                             </ul>
                             <ul class="social-area">
                                 <li>
@@ -645,7 +773,7 @@
                                 data-aos="reveal-end"
                             ></div>
                             <img
-                                src="{{ asset('assets/images/contact/bg-01.jpg') }}"
+                                src="{{ asset('assets/images/contact/second1.jpg') }}"
                                 alt="contact"
                             >
                         </div>
@@ -662,22 +790,9 @@
                     data-sal-delay="150"
                     data-sal-duration="800"
                 >
-                    <h2 class="title-main"><span class="counter">10</span></h2>
+                    <h2 class="title-main"><span class="counter">2</span></h2>
                     <p class="disc">
-                        Awards Won
-                    </p>
-                </div>
-                <!-- single fun facts end -->
-                <!-- single fun facts  -->
-                <div
-                    class="rts-single-service-two"
-                    data-sal="slide-up"
-                    data-sal-delay="350"
-                    data-sal-duration="800"
-                >
-                    <h2 class="title-main"><span class="counter">5</span> <span class="prefix">K</span></h2>
-                    <p class="disc">
-                        Dally Orders
+                        Branchs
                     </p>
                 </div>
                 <!-- single fun facts end -->
@@ -688,20 +803,7 @@
                     data-sal-delay="550"
                     data-sal-duration="800"
                 >
-                    <h2 class="title-main"><span class="counter">99</span></h2>
-                    <p class="disc">
-                        Members
-                    </p>
-                </div>
-                <!-- single fun facts end -->
-                <!-- single fun facts  -->
-                <div
-                    class="rts-single-service-two"
-                    data-sal="slide-up"
-                    data-sal-delay="550"
-                    data-sal-duration="800"
-                >
-                    <h2 class="title-main"><span class="counter">100</span></h2>
+                    <h2 class="title-main"><span class="counter">180</span></h2>
                     <p class="disc">
                         Menu & Dish
                     </p>
@@ -714,9 +816,9 @@
                     data-sal-delay="550"
                     data-sal-duration="800"
                 >
-                    <h2 class="title-main"><span class="counter">25</span></h2>
+                    <h2 class="title-main"><span class="counter">5</span> <span class="prefix">Star</span></h2>
                     <p class="disc">
-                        Specialities
+                        Rating
                     </p>
                 </div>
                 <!-- single fun facts end -->
@@ -725,286 +827,6 @@
     </div>
     <!-- contact area end -->
 
-    <!-- MENU area start -->
-    <div class="rts-menu-area menu-area-2 rts-section-gap">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <div class="banner-one-wrapper">
-                        <div class="shape-2"><img
-                                src="{{ asset('assets/images/project/vector4.webp') }}"
-                                alt="shape"
-                            ></div>
-                        <div
-                            class="title-img"
-                            data-sal="zoom-in"
-                            data-sal-delay="100"
-                            data-sal-duration="800"
-                        >
-                            <img
-                                src="{{ asset('assets/images/about/title-shape.png') }}"
-                                alt="about"
-                            >
-                        </div>
-                        <h1
-                            class="title-banner"
-                            data-sal="slide-up"
-                            data-sal-delay="120"
-                            data-sal-duration="800"
-                        >
-                            Starters & Main Dishes
-                        </h1>
-                        <p
-                            class="desc"
-                            data-sal="slide-up"
-                            data-sal-duration="800"
-                        >It’s the story of an everlasting love affair, Dieter Delicioz and the <br> Atlantic Ocean in the big air.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="menu-area-2-inner">
-                <div class="shape-1"><img
-                        src="{{ asset('assets/images/project/vector3.webp') }}"
-                        alt="shape"
-                    ></div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <div
-                            class="menu-wrapper"
-                            data-sal="zoom-in"
-                            data-sal-delay="150"
-                            data-sal-duration="800"
-                        >
-                            <div class="menu-image"><a href="shop-details.html"><img
-                                        src="{{ asset('assets/images/project/sm-01.jpg') }}"
-                                        alt="item"
-                                    ></a></div>
-                            <div class="content">
-                                <h4 class="p-title"><a href="shop-details.html">Chicha Morada</a></h4>
-                                <p class="desc">beetroot and datterini, goat cheese, Ricotta</p>
-                            </div>
-                            <div class="price-tag"><a href="#">$33.00</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div
-                            class="menu-wrapper"
-                            data-sal="zoom-in"
-                            data-sal-delay="150"
-                            data-sal-duration="800"
-                        >
-                            <div class="menu-image"><a href="shop-details.html"><img
-                                        src="{{ asset('assets/images/project/sm-02.jpg') }}"
-                                        alt="item"
-                                    ></a></div>
-                            <div class="content">
-                                <h4 class="p-title"><a href="shop-details.html">Tommy’s Margarita</a></h4>
-                                <p class="desc">beetroot and datterini, goat cheese, Ricotta</p>
-                            </div>
-                            <div class="price-tag"><a href="#">$30.00</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div
-                            class="menu-wrapper"
-                            data-sal="zoom-in"
-                            data-sal-delay="150"
-                            data-sal-duration="800"
-                        >
-                            <div class="menu-image"><a href="shop-details.html"><img
-                                        src="{{ asset('assets/images/project/sm-03.jpg') }}"
-                                        alt="item"
-                                    ></a></div>
-                            <div class="content">
-                                <h4 class="p-title"><a href="shop-details.html">Prickly Pear Tonic</a></h4>
-                                <p class="desc">beetroot and datterini, goat cheese, Ricotta</p>
-                            </div>
-                            <div class="price-tag"><a href="#">$15.00</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div
-                            class="menu-wrapper"
-                            data-sal="zoom-in"
-                            data-sal-delay="150"
-                            data-sal-duration="800"
-                        >
-                            <div class="menu-image"><a href="shop-details.html"><img
-                                        src="{{ asset('assets/images/project/sm-04.jpg') }}"
-                                        alt="item"
-                                    ></a></div>
-                            <div class="content">
-                                <h4 class="p-title"><a href="shop-details.html">Crispy Skin Chicken</a></h4>
-                                <p class="desc">beetroot and datterini, goat cheese, Ricotta</p>
-                            </div>
-                            <div class="price-tag"><a href="#">$16.00</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div
-                            class="menu-wrapper"
-                            data-sal="zoom-in"
-                            data-sal-delay="150"
-                            data-sal-duration="800"
-                        >
-                            <div class="menu-image"><a href="shop-details.html"><img
-                                        src="{{ asset('assets/images/project/sm-05.jpg') }}"
-                                        alt="item"
-                                    ></a></div>
-                            <div class="content">
-                                <h4 class="p-title"><a href="shop-details.html">Wild Mushroom Arancini</a></h4>
-                                <p class="desc">beetroot and datterini, goat cheese, Ricotta</p>
-                            </div>
-                            <div class="price-tag"><a href="#">$12.00</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div
-                            class="menu-wrapper"
-                            data-sal="zoom-in"
-                            data-sal-delay="150"
-                            data-sal-duration="800"
-                        >
-                            <div class="menu-image"><a href="shop-details.html"><img
-                                        src="{{ asset('assets/images/project/sm-06.jpg') }}"
-                                        alt="item"
-                                    ></a></div>
-                            <div class="content">
-                                <h4 class="p-title"><a href="shop-details.html">Fresh Oysters Dozen</a></h4>
-                                <p class="desc">beetroot and datterini, goat cheese, Ricotta</p>
-                            </div>
-                            <div class="price-tag"><a href="#">$10.00</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div
-                            class="menu-wrapper"
-                            data-sal="zoom-in"
-                            data-sal-delay="150"
-                            data-sal-duration="800"
-                        >
-                            <div class="menu-image"><a href="shop-details.html"><img
-                                        src="{{ asset('assets/images/project/sm-07.jpg') }}"
-                                        alt="item"
-                                    ></a></div>
-                            <div class="content">
-                                <h4 class="p-title"><a href="shop-details.html">Bruno’s Scribble</a></h4>
-                                <p class="desc">beetroot and datterini, goat cheese, Ricotta</p>
-                            </div>
-                            <div class="price-tag"><a href="#">$33.00</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div
-                            class="menu-wrapper"
-                            data-sal="zoom-in"
-                            data-sal-delay="150"
-                            data-sal-duration="800"
-                        >
-                            <div class="menu-image"><a href="shop-details.html"><img
-                                        src="{{ asset('assets/images/project/sm-08.jpg') }}"
-                                        alt="item"
-                                    ></a></div>
-                            <div class="content">
-                                <h4 class="p-title"><a href="shop-details.html">Purple Corn Tostada</a></h4>
-                                <p class="desc">beetroot and datterini, goat cheese, Ricotta</p>
-                            </div>
-                            <div class="price-tag"><a href="#">$20.00</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="button-area-banner"
-                    data-sal="slide-up"
-                    data-sal-delay="150"
-                    data-sal-duration="800"
-                >
-                    <a
-                        href="about.html"
-                        class="rts-btn btn-primary"
-                    >View More</a>
-                    <a
-                        href="shop-details.html"
-                        class="rts-btn btn-secondary"
-                    >Food Menu</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- MENU area end -->
-
-    <!-- gallery area start -->
-    <div class="rts-gallery-area bg-white">
-        <div class="gallery-area-inner">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div
-                        class="gallery-image"
-                        data-sal="slide-up"
-                        data-sal-delay="50"
-                        data-sal-duration="800"
-                    >
-                        <a
-                            id="open-popup"
-                            href="#"
-                        ><img
-                                src="{{ asset('assets/images/gallery/gallery-img-01.jpg') }}"
-                                alt="gallery"
-                            ></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div
-                        class="gallery-image"
-                        data-sal="slide-up"
-                        data-sal-delay="100"
-                        data-sal-duration="800"
-                    >
-                        <a
-                            id="open-popupa"
-                            href="#"
-                        ><img
-                                src="{{ asset('assets/images/gallery/gallery-img-02.jpg') }}"
-                                alt="gallery"
-                            ></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div
-                        class="gallery-image"
-                        data-sal="slide-up"
-                        data-sal-delay="150"
-                        data-sal-duration="800"
-                    >
-                        <a
-                            id="open-popupb"
-                            href="#"
-                        ><img
-                                src="{{ asset('assets/images/gallery/gallery-img-03.jpg') }}"
-                                alt="gallery"
-                            ></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div
-                        class="gallery-image"
-                        data-sal="slide-up"
-                        data-sal-delay="200"
-                        data-sal-duration="800"
-                    >
-                        <a
-                            id="open-popupc"
-                            href="#"
-                        ><img
-                                src="{{ asset('assets/images/gallery/gallery-img-04.jpg') }}"
-                                alt="gallery"
-                            ></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- gallery area end -->
 
     <!-- rts footer area start -->
     @include('front.layout.footer')
@@ -1113,6 +935,31 @@
     <!-- main js -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
     <!-- header style two End -->
+    <script>
+        // Function to open the modal and display the image in full-screen
+        function openImageModal(imageElement) {
+            var modal = document.getElementById("imageModal");
+            var modalImage = document.getElementById("fullScreenImage");
+        
+            modal.style.display = "block";
+            modalImage.src = imageElement.src;
+        }
+        
+        // Function to close the modal
+        function closeImageModal() {
+            var modal = document.getElementById("imageModal");
+            modal.style.display = "none";
+        }
+        // Event listener to close the modal when the close button is clicked
+        document.querySelector(".close").addEventListener("click", closeImageModal);
+        
+        // Event listener to close the modal when the overlay (background) is clicked
+        document.getElementById("imageModal").addEventListener("click", function(event) {
+            if (event.target === this) {
+                closeImageModal();
+            }
+        });
+    </script>
 
 
 </body>

@@ -44,10 +44,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap");
 :root {
-    --color-primary: #d3d3d3;
-    --color-secondary: #535353;
-    --color-body: #6e777d;
-    --color-heading-1: #535353;
+    --color-primary: #fa1819;
+    --color-secondary: #671406;
+    --color-body: #671406;
+    --color-heading-1: #671406;
     --color-white: #fff;
     --color-success: #3eb75e;
     --color-danger: #ff0003;
@@ -250,7 +250,7 @@ h6 a,
 .bg-color-tertiary .h4,
 .bg-color-tertiary .h5,
 .bg-color-tertiary .h6 {
-    color: #fff;
+    color: #671406;
 }
 .bg-color-tertiary p {
     color: #6c7279;
@@ -15370,7 +15370,7 @@ body.sal-disabled [data-sal|="flip"] {
     display: flex;
     align-items: center;
     align-content: center;
-    background: var(--color-primary);
+    background: var(--color-white);
     height: 100%;
 }
 @media (max-width: 991px) {
@@ -15410,7 +15410,7 @@ body.sal-disabled [data-sal|="flip"] {
 }
 .header-one .header-one-container .header-main-wrapper .menu-area {
     width: 5%;
-    background: #ff0003;
+    background: #671406;
     display: flex;
     align-items: center;
     align-content: center;
@@ -15452,11 +15452,11 @@ body.sal-disabled [data-sal|="flip"] {
 }
 @media (max-width: 991px) {
     .header-one .header-one-container .header-main-wrapper .menu-area a span {
-        background: var(--color-primary);
+        background: var(--color-secondary);
     }
 }
 .header-one .header-one-container .header-main-wrapper .rts-header-mid {
-    background: #292929;
+    background: #E0D0CD;
     width: 67%;
     height: 100%;
 }
@@ -15493,9 +15493,9 @@ body.sal-disabled [data-sal|="flip"] {
     ul
     li
     .nav-link {
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 700;
+    color: #671406;
+    font-size: 22px;
+    font-weight: 800;
     text-transform: uppercase;
     margin-right: 18px;
 }
@@ -15550,7 +15550,7 @@ body.sal-disabled [data-sal|="flip"] {
     width: 16%;
     position: relative;
     height: 100%;
-    background: #1f1f1f;
+    background: #E0D0CD;
 }
 @media screen and (max-width: 1300px) {
     .header-one .header-one-container .header-main-wrapper .rts-header-right {
@@ -20399,7 +20399,7 @@ edit .quantity-edit button {
     align-items: center;
 }
 .rts-marquee-area .marquee .marquee-content .marquee-tag h3 {
-    color: #5e5e5e;
+    color: #671406;
     font-size: 130px;
     font-weight: 400;
     line-height: 120px;
@@ -20671,7 +20671,7 @@ p.desc {
     justify-content: center;
     padding: 25px 0;
     position: absolute;
-    background: #292929;
+    background: #671406;
     width: 100%;
     height: 60px;
     top: 50%;
@@ -29415,7 +29415,7 @@ p.desc {
     align-items: center;
     justify-content: center;
     font-size: 24px;
-    color: #999999;
+    color: #671406;
 }
 .rts-faq-area
     .accordion-two
@@ -31723,7 +31723,7 @@ p.desc {
 }
 
 .rts-footer-one {
-    background: #111111;
+    background: #E0D0CD;
     position: relative;
 }
 .rts-footer-one .shape-1 {
@@ -31928,7 +31928,7 @@ p.desc {
     list-style: none;
     margin-left: 40px;
     margin-top: 20px;
-    color: #999999;
+    color: #671406;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -32505,7 +32505,7 @@ p.desc {
     }
 }
 .main-footer-wrapper-one .footer-header-two.pages .pages ul li a {
-    color: #999999;
+    color: #671406;
     font-weight: 700;
     font-size: 14px;
 }
@@ -32517,7 +32517,7 @@ p.desc {
     margin-bottom: 25px;
 }
 .single-footer-wized-one.logo-area .disc-f {
-    color: #999999;
+    color: #671406;
     font-family: "DM Sans", Sans-serif;
     font-size: 16px;
     line-height: 25px;
@@ -32607,7 +32607,7 @@ p.desc {
     list-style: none;
     margin-left: 40px;
     margin-top: 20px;
-    color: #999999;
+    color: #671406;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
